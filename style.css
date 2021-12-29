@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Crimson Pro', serif;
+}
+
+body {
+  background-image: url(imagens/fundohtml.jpg);
+}
+
+:root {
+  --color-font: rgb(207, 207, 207);
+  --grid-: 2rem;
+  --width-img-: 50px;
+  --align-items-: center;
+}
+
+a {
+  display: flex;
+  text-decoration: none;
+  color: var(--color-font);
+  font-size: 2rem;
+  font-weight: bolder;
+  align-items: center;
+}
+
+p {
+  margin-left: 10px;
+}
+
+.instagram {
+  margin-bottom: 30px;
+}
+.facebook {
+  margin-bottom: 30px;
+}
+.github {
+  margin-bottom: 30px;
+  width: 150px;
+}
+
+.instagram img {
+  border-radius: 50%;
+  width: var(--width-img-);
+  align-items: var(--align-items-);
+  float: right;
+}
+
+.facebook img {
+  border-radius: 50%;
+  width: var(--width-img-);
+  align-items: var(--align-items-);
+}
+
+.github img {
+  border-radius: 50%;
+  width: var(--width-img-);
+  align-items: var(--align-items-);
+}
+
+.container {
+  width: 400px;
+  height: 450px;
+  border: solid;
+  padding: 20px;
+  margin: auto;
+  background-image: url(imagens/fundo2.jpg);
+  background-position: calc(50%);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.profile {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.box {
+  color: var(--color-font);
+  font-weight: bolder;
+}
+
+.box h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: auto;
+}
