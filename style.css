@@ -6,6 +6,7 @@
 
 body {
   background-image: url(imagens/fundohtml.jpg);
+  background-size: cover;
 }
 
 :root {
@@ -44,6 +45,16 @@ p {
   width: var(--width-img-);
   align-items: var(--align-items-);
   float: right;
+}
+
+.instagram img:hover {
+  transform: translateY(-4px);
+}
+.facebook img:hover {
+  transform: translateY(-4px);
+}
+.github img:hover {
+  transform: translateY(-4px);
 }
 
 .facebook img {
@@ -98,4 +109,11 @@ p {
   flex-direction: column;
   width: 200px;
   margin: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 350px;
+    margin-top: 90px;
+  }
 }
