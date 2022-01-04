@@ -3,6 +3,9 @@ let insta = 'https://www.instagram.com/maykonvinicius.3090/';
 let face = 'https://www.facebook.com/profile.php?id=100002527294213';
 let git = 'https://github.com/MVinicius3091';
 
+//Imagem do profile atribuído
+let Profile = 'imagens/profile.jpg';
+
 //imagens atribuídas
 let imgInstagram = 'imagens/Insta.jpg';
 let imgFacebook = 'imagens/face.jpg';
@@ -18,6 +21,9 @@ let imgInsta = document.querySelector('.instagram img');
 let imgFace = document.querySelector('.facebook img');
 let imgGit = document.querySelector('.github img');
 
+//Selecionando a tag img do profile.
+let imgProfile = document.querySelector(".profile img");
+
 //links
 linksInsta.setAttribute('href', insta);
 linksFace.setAttribute('href', face);
@@ -27,3 +33,6 @@ linksGit.setAttribute('href', git);
 imgInsta.setAttribute('src', imgInstagram);
 imgFace.setAttribute('src', imgFacebook);
 imgGit.setAttribute('src', imgGithub);
+
+//Imagem do profile
+imgProfile.setAttribute('src', Profile );
